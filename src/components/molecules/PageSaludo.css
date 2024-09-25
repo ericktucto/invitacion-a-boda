@@ -1,0 +1,36 @@
+.page1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  row-gap: 24px;
+  font-family: 'Roboto';
+  text-align: center;
+  background-color: black;
+}
+.page1 .background-photo {
+  position: absolute;
+  background-image: url('/img/eyd.jpeg');
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 24px 0;
+  mask-image: linear-gradient(to bottom, black 40%, transparent 120%);
+}
+.page1 img {
+  border-radius: 50%;
+  border: 5px solid var(--blue);
+}
+.page1 .page1__footer {
+  padding-top: 24px;
+  font-family: 'HelloWedding';
+  font-size: 2rem;
+  color: white;
+}
+.message {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  row-gap: 16px;
+  margin-bottom: 80px;
+}

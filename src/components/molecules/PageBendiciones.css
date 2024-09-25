@@ -1,0 +1,37 @@
+img {
+  mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+}
+h2 {
+  font-family: "Wedding";
+  font-size: 48px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+}
+p.c-blue-dark {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+}
+.padres {
+  display: grid;
+  gap: 12px;
+}
+p.mensaje-bendicion {
+  max-width: 300px;
+  margin: 0 auto;
+  font-family: "Roboto";
+  font-size: 16px;
+  text-align: center;
+}
+.page-bendiciones {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 21px;
+}
+.page-bendiciones .bendicion {
+  flex: 1;
+}

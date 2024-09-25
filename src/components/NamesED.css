@@ -1,0 +1,22 @@
+div.union-titulo {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+span.nombre {
+  font-family: 'Wedding';
+  font-size: 100px;
+  line-height: 0.8;
+  color: white;
+  position: relative;
+}
+span.y {
+  font-family: 'Wedding';
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  line-height: 0.6;
+  margin: auto;
+  rotate: 20deg;
+}

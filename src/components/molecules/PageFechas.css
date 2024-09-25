@@ -1,0 +1,11 @@
+.pagefechas {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  row-gap: 60px;
+}
+.pagefechas img {
+  transform: translateY(-24px) translateX(24px);
+}

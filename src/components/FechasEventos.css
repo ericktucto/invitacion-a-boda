@@ -1,0 +1,34 @@
+.contenedor-fechas-eventos {
+  text-align: center;
+  display: grid;
+  row-gap: 28px;
+  justify-items: center;
+}
+
+.contenedor-fechas-eventos .seccion-fechas-eventos {
+  display: grid;
+  row-gap: 12px;
+  justify-items: center;
+  width: 80%;
+}
+.contenedor-fechas-eventos .seccion-fechas-eventos .btn-mapa {
+  justify-self: center;
+}
+.contenedor-fechas-eventos .titulo::before,
+.contenedor-fechas-eventos .titulo::after
+{
+  content: '';
+  width: 48px;
+  margin: 0 10px;
+  display: block;
+  border-bottom: 1px solid var(--violet);
+}
+.contenedor-fechas-eventos .titulo {
+  display: flex;
+  max-width: 70%;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--violet);
+}

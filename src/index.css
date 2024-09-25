@@ -1,68 +1,110 @@
+@font-face {
+  font-family: "HelloWedding";
+  src: url("/fonts/HelloWedding.otf?format=opentype") format("opentype");
+}
+@font-face {
+  font-family: "WeddingScript";
+  src: url("/fonts/WeddingScript.otf?format=opentype") format("opentype");
+}
+@font-face {
+  font-family: "Wedding";
+  src: url("/fonts/Wedding.otf?format=opentype") format("opentype");
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('roboto.eot'); /* IE9 Compat Modes */
+  src: url('roboto.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('roboto.woff') format('woff'), /* Modern Browsers */
+  url('roboto.ttf')  format('truetype'), /* Safari, Android, iOS */
+  url('roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+* {
+  box-sizing: border-box;
+}
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --violet: #5A4584;
+  --dark-violet: #3A2E50;
+  --amethyst: #9370DB;
+  --lilac: #C8A2C8;
+  --blue: #A4C6F5;
+  --blue-dark: #5F8BBF;
+  --sky: #D6EAF8;
+  --gold: #B38B5A;
 }
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  background-color: #fff;
+}
+#root {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0;
+
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+
+  /*sobras a la derecha e izquierda*/
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.page-full {
+  height: 100vh;
+  scroll-snap-align: start;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+.btn,
+.btn:active,
+.btn:visited,
+.btn:link,
+.btn:hover
+{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  user-select: none;
   cursor: pointer;
-  transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
+.btn.btn-primary {
+  color: #fff;
+  background-color: var(--violet);
+  border-color: var(--violet);
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.btn.btn-primary:hover,
+.btn.btn-primary:active
+{
+  background-color: var(--dark-violet);
+  border-color: var(--dark-violet);
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.w-100 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+.relative {
+  position: relative;
+}
+.c-gold {
+  color: var(--gold);
+}
+.c-blue-dark {
+  color: var(--blue-dark);
+}
+.c-blue {
+  color: var(--blue);
+}
+.c-sky {
+  color: var(--sky);
+}
+.position-top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.overflow-hidden {
+  overflow: hidden;
 }
