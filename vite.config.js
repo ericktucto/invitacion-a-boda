@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [
     react(),
   ],
-  base: "https://ericktucto.com/invitacion-a-boda"
+  base: "/invitacion-a-boda/"
 })
