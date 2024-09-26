@@ -7,9 +7,8 @@ export default function Page1() {
     <div className="w-100 h-100 background-photo"></div>
     <div className="message relative">
       <NamesED />
-      <div>SI ME FALTA EL AMOR, NADA SOY;<br/>
-        LO QUE DIOS HA UNIDO, NO LO SEPARE EL
-        HOMBRE.</div>
+      <div>MEJOR SON DOS QUE UNO SOLO, PORQUE TIENEN UN MAYOR BENEFICIO POR SU
+        DURO TRABAJO (ECL 4:9)</div>
 
       <div className="page1__footer">¡Nos casamos!</div>
       <Music url="/audio/music.m4a"/>

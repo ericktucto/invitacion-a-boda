@@ -1,0 +1,20 @@
+.page-confirmar-asistencia {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.page-confirmar-asistencia .confirma-asistencia {
+  display: grid;
+  row-gap: 28px;
+}
+.page-confirmar-asistencia .confirma-asistencia .propietario {
+  font-size: 28px;
+  text-align: center;
+  display: grid;
+  row-gap: 12px;
+  color: var(--blue-dark);
+}
+.page-confirmar-asistencia .confirma-asistencia .propietario .linea {
+  border-bottom: 1px var(--violet) solid;
+}

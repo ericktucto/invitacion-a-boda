@@ -2,5 +2,12 @@
   display: grid;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
-
+.pagelugar img.position-top-right {
+  transform: translateY(-24px) translateX(24px);
+}
+.pagelugar img.position-top-left {
+  rotate: 270deg;
+  transform: translateY(-24px) translateX(24px);
+}

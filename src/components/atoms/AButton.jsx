@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 export default function AButton(props) {
   return <a
-    className="btn btn-primary"
+    className="btn btn-lilac"
     href={ props.url }
     target="_blank"
   >{ props.text }</a>

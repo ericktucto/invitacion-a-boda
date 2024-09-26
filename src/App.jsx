@@ -1,20 +1,28 @@
 import './App.css'
 import PageSaludo from './components/molecules/PageSaludo'
-import ConfirmaAsistencia from './components/ConfirmaAsistencia'
-import GraciasDespedida from './components/GraciasDespedida'
 import PageFechas from './components/molecules/PageFechas'
 import PageBendiciones from './components/molecules/PageBendiciones'
 import PageLugar from './components/molecules/PageLugar'
+import PageConfirmarAsistencia from './components/pages/PageConfirmarAsistencia'
+import PageTexto from './components/pages/PageTexto'
+import { useEffect, useState } from 'react'
 
 function App() {
+  const [nombre, setNombre] = useState('')
+  const [pases, setPases] = useState(0)
+  useEffect(() => {
+    const search = new URLSearchParams(window.location.search);
+    setNombre(search.get("nombre"))
+    setPases(search.get("pases"))
+  }, [nombre, pases]);
   return (
     <>
       <PageSaludo />
       <PageFechas />
       <PageBendiciones />
       <PageLugar />
-      <ConfirmaAsistencia />
-      <GraciasDespedida />
+      <PageConfirmarAsistencia nombre={nombre} pases={pases}/>
+      <PageTexto />
     </>
   )
 }

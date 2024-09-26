@@ -8,7 +8,7 @@ h2 {
   text-align: center;
   margin: 0;
 }
-p.c-blue-dark {
+.page-bendiciones p.c-blue-dark {
   font-family: "Roboto";
   font-weight: normal;
   font-size: 16px;
@@ -34,4 +34,9 @@ p.mensaje-bendicion {
 }
 .page-bendiciones .bendicion {
   flex: 1;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 12px;
+  padding: 24px;
 }

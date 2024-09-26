@@ -1,0 +1,16 @@
+.regalos-novios {
+  max-width: 480px;
+  text-align: center;
+  display: grid;
+  justify-items: center;
+}
+.regalos-novios .c-blue-dark {
+  width: 80%;
+  max-width: 480px;
+  text-align: center;
+}
+.regalos-novios .titulo {
+  font-family: Wedding;
+  color: var(--gold);
+  font-size: 48px;
+}

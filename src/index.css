@@ -41,7 +41,7 @@ body {
   margin: 0 auto;
   padding: 0;
 
-  scroll-snap-type: y mandatory;
+  /*scroll-snap-type: y mandatory;*/
   overflow-y: scroll;
   height: 100vh;
 
@@ -79,6 +79,19 @@ body {
   background-color: var(--dark-violet);
   border-color: var(--dark-violet);
 }
+
+
+.btn.btn-lilac {
+  color: #fff;
+  background-color: var(--lilac);
+  border-color: var(--lilac);
+}
+.btn.btn-lilac:hover,
+.btn.btn-lilac:active
+{
+  opacity: 0.8;
+}
+
 .w-100 {
   width: 100%;
 }
@@ -104,6 +117,33 @@ body {
   position: absolute;
   top: 0;
   right: 0;
+}
+.position-top-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.position-bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.position-bottom-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.position-top-center {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.position-bottom-center {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .overflow-hidden {
   overflow: hidden;

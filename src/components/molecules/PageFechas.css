@@ -6,6 +6,13 @@
   grid-template-rows: 1fr;
   row-gap: 60px;
 }
-.pagefechas img {
+.pagefechas img.position-top-right {
   transform: translateY(-24px) translateX(24px);
+}
+.pagefechas img.position-bottom-left {
+  rotate: 180deg;
+  transform: translateY(-24px) translateX(24px);
+}
+.pagefechas__container p {
+  font-family: 'Wedding';
 }
