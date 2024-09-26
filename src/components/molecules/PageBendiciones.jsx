@@ -2,7 +2,7 @@ import "./PageBendiciones.css";
 
 export default function PageBendiciones() {
   return <div className="page-full relative page-bendiciones">
-    <img src="/img/banca.jpeg" alt="" />
+    <img src="/invitacion-a-boda/img/banca.jpeg" alt="" />
     <div className="bendicion">
       <p className="mensaje-bendicion c-blue-dark">COMPARTIR NUESTRA BODA CON USTEDES, LO VA A CONVERTIR EN UN MOMENTO INOLVIDABLE.</p>
       <div className="padres">

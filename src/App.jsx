@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     const search = new URLSearchParams(window.location.search);
     setNombre(search.get("nombre"))
-    setPases(search.get("pases"))
+    setPases(+search.get("pases"))
   }, [nombre, pases]);
   return (
     <>

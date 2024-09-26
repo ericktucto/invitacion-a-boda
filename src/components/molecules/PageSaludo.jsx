@@ -11,7 +11,7 @@ export default function Page1() {
         DURO TRABAJO (ECL 4:9)</div>
 
       <div className="page1__footer">¡Nos casamos!</div>
-      <Music url="/audio/music.m4a"/>
+      <Music url="/invitacion-a-boda/audio/music.m4a"/>
     </div>
   </div>
 }
