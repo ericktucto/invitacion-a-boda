@@ -4,10 +4,19 @@
   justify-content: center;
   overflow: hidden;
 }
-.pagelugar img.position-top-right {
-  transform: translateY(-24px) translateX(24px);
-}
-.pagelugar img.position-top-left {
+.pagelugar img:first-child {
   rotate: 270deg;
-  transform: translateY(-24px) translateX(24px);
+}
+.pagelugar img {
+  max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+}
+.pagelugar .flores {
+  width: 20vh;
+  height: 20vh;
+  overflow: hidden;
+  display: flex;
 }

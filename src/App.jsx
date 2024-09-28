@@ -12,8 +12,8 @@ function App() {
   const [pases, setPases] = useState(0)
   useEffect(() => {
     const search = new URLSearchParams(window.location.search);
-    setNombre(search.get("nombre"))
-    setPases(+search.get("pases"))
+    setNombre(search.get("nombre", ""))
+    setPases(+search.get("pases", 0))
   }, [nombre, pases]);
   return (
     <>

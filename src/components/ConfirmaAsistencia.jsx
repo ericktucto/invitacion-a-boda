@@ -23,7 +23,7 @@ export default function ConfirmaAsistencia (props) {
         <NovioSvg fill="var(--gold)" width="70"/>
         <AButton
           url="https://wa.me/51945849083"
-          text="A LA NOVIO"
+          text="AL NOVIO"
         />
       </div>
     </div>

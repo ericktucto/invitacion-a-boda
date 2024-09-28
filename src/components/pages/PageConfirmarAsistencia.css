@@ -4,6 +4,9 @@
   justify-content: center;
   padding: 30px;
 }
+.page-confirmar-asistencia img {
+  justify-self: center;
+}
 .page-confirmar-asistencia .confirma-asistencia {
   display: grid;
   row-gap: 28px;
