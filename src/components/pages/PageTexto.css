@@ -11,7 +11,7 @@
 .pagetexto .background-photo {
   --color: var(--lilac);
   position: absolute;
-  background-image: url('/img/caminando.jpeg');
+  background-image: url('/img/nuestrocompromiso.jpeg');
   background-size: cover;
   background-position: 50% 50%;
   padding: 24px 0;

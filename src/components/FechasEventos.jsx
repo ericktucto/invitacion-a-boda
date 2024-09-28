@@ -28,8 +28,11 @@ export default function FechasEventos() {
         />
       </div>
       <div className="titulo"><span>CONSEJO MATRIMONAL</span></div>
-      <div>Calle Simón Bolivar S/N Mz. 59 Lt. 16-17, Bernal, Piura</div>
-      <div>Hora: 3:00 PM</div>
+      <div>
+        <div>Salón del Reino</div>
+        <small>Calle Simón Bolivar Mz. 59 Lt. 16-17, Bernal, Piura</small>
+      </div>
+      <div>Hora: 2:00 PM</div>
       <div className="btn-mapa">
         <AButton
           url="https://maps.app.goo.gl/1skG8mNehRjjm5Lo9"
@@ -41,7 +44,7 @@ export default function FechasEventos() {
     <div className="seccion-fechas-eventos">
       <div className="titulo"><span>RECEPCION</span></div>
       <div>Complejo Polideportivo Nuevo Chancay</div>
-      <div>Hora: 5:00 PM</div>
+      <div>Hora: 4:00 PM</div>
       <div className="btn-mapa">
         <AButton
           url="https://maps.app.goo.gl/keHLSLwd1iUyvJi66"

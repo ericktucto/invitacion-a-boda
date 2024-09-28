@@ -33,6 +33,9 @@ export default function ConfirmaAsistencia (props) {
     </div>
     <div><strong className="c-blue-dark">HEMOS RESERVADO PARA TI:
       <span className="c-gold"> { props.pases } PASE(S)</span></strong>
+      <br />
+      <br />
+      <div><small className="c-blue-dark">En caso no responder  hasta la fecha límite se les considerá que no asistirán.</small></div>
       <div><small className="c-blue-dark">Los novios no disponen de alojamientos para invitados</small></div>
     </div>
   </div>
