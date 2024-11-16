@@ -6,7 +6,7 @@ export default function PaletaColores() {
   const colores = ['violet', 'dark-violet', 'amethyst', 'lilac', 'blue', 'sky'];
   return <div className="paleta">
     <div className="titulo">
-      Vestimenta
+      VESTIMENTA
     </div>
     <div>Formal</div>
     <div>

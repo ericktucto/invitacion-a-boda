@@ -1,7 +1,8 @@
 import "./PageLugar.css";
 import FechasEventos from "../FechasEventos";
-import RegalosNovios from "../RegalosNovios";
+//import RegalosNovios from "../RegalosNovios";
 
+    /*<RegalosNovios />*/
 export default function PageLugar() {
   return <div className="page-full relative pagelugar">
     <div className="flores">
@@ -15,6 +16,5 @@ export default function PageLugar() {
       />
     </div>
     <FechasEventos />
-    <RegalosNovios />
   </div>
 }

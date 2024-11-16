@@ -10,7 +10,7 @@ export default function ConfirmaAsistencia (props) {
     <div><strong className="c-blue-dark">TU COMPAÑIA ES MUY IMPORTANTE PARA
       NOSOTROS EN ESTE DÍA TAN ESPECIAL. ES POR ELLO QUE TE AGRADECEREMOS
       CONFIRMAR TU ASISTENCIA ANTES DEL
-      <span className="c-gold"> 15 DE NOVIEMBRE</span></strong></div>
+      <span className="c-gold"> 1 DE DICIEMBRE</span></strong></div>
     <div className="botones-asistencia">
       <div className="boton-asistencia">
         <NoviaSvg fill="var(--gold)" width="70"/>
