@@ -4,6 +4,7 @@ import PageFechas from './components/molecules/PageFechas'
 import PageBendiciones from './components/molecules/PageBendiciones'
 import PageLugar from './components/molecules/PageLugar'
 import PageConfirmarAsistencia from './components/pages/PageConfirmarAsistencia'
+import PageCuenta from './components/pages/PageCuenta'
 import PageTexto from './components/pages/PageTexto'
 import { useEffect, useState } from 'react'
 
@@ -22,6 +23,7 @@ function App() {
       <PageBendiciones />
       <PageLugar />
       <PageConfirmarAsistencia nombre={nombre} pases={pases}/>
+      <PageCuenta nombre={nombre} pases={pases}/>
       <PageTexto />
     </>
   )

@@ -1,6 +1,9 @@
 
+import './PageCuenta.css'
+import TimerCuenta from './../TimerCuenta'
+
 export default function PageCuenta() {
-  return <div className="page-confirmar-asistencia page-full relative">
-    <ConfirmaAsistencia />
+  return <div className="page-timer-cuenta page-full relative">
+    <TimerCuenta />
   </div>
 }

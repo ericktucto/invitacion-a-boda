@@ -1,0 +1,14 @@
+.page-timer-cuenta {
+  display: grid;
+  align-items: start;
+  justify-content: center;
+  padding: 0;
+}
+.page-timer-cuenta img {
+  justify-self: center;
+}
+.page-timer-cuenta .timer-cuenta {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+}

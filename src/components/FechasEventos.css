@@ -10,7 +10,7 @@
   flex-direction: column;
   row-gap: 12px;
   justify-content: center;
-  justify-items: center;
+  align-items: center;
   width: 80%;
   max-width: 480px;
   position: relative;
