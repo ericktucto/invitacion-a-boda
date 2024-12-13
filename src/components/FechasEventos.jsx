@@ -48,7 +48,7 @@ export default function FechasEventos() {
           width="60"
         />
       </div>
-      <div className="titulo"><span>RECEPCION</span></div>
+      <div className="titulo" style={{whiteSpace: "wrap"}}><span>CONSEJO MATRIMONIAL Y RECEPCION</span></div>
       <div>Complejo Polideportivo Nuevo Chancay</div>
       <div>Hora: 4:00 PM</div>
       <div className="btn-mapa">
