@@ -1,19 +1,31 @@
 .timer-cuenta {
   text-align: center;
 }
+.timer-cuenta .titulo {
+  font-family: "Wedding";
+  color: var(--gold);
+  font-size: 48px;
+}
 .timer-cuenta img.banner {
   width: 100%;
 }
 .timer-cuenta .container-countdown {
-  display: flex;
+  display: grid;
   justify-content: center;
+  align-content: center;
   height: 100%;
 }
 .timer-cuenta .container-display {
-  display: flex;
-  gap: 12px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 12px;
   align-items: center;
+  align-content: center;
   justify-content: center;
+}
+.timer-cuenta .container-display .number,
+.timer-cuenta .container-display .dobledots {
+  min-width: 54px;
 }
 .timer-cuenta .number {
   font-family: "Wedding";

@@ -10,10 +10,10 @@ export default function ConfirmaAsistencia (props) {
     seconds: 0,
   })
   useEffect(() => {
-    const targetDate = new Date("2024-12-15T00:00:00").getTime()
+    const targetDate = new Date("2024-12-14T10:30:00").getTime()
     const updateCountdown = () => {
       const now = new Date().getTime()
-      const distance = targetDate - now
+      const distance = now - targetDate
       if (distance > 0) {
         const flag1 = 1000 * 60;
         const flag2 = 1000 * 60 * 60;
@@ -41,14 +41,15 @@ export default function ConfirmaAsistencia (props) {
   return <div className="timer-cuenta">
     <img className="banner" src="/invitacion-a-boda/img/mirandonos.jpeg" alt="" />
     <div className="container-countdown">
+      <div className="titulo">Todo nuestro tiempo juntos</div>
       <div className="container-display">
         <div className="number">{ countdown.days }</div>
-        <div className="dobledots">días</div>
         <div className="number">{ countdown.hours }</div>
-        <div className="dobledots">horas</div>
         <div className="number">{ countdown.minutes }</div>
-        <div className="dobledots">min</div>
         <div className="number">{ countdown.seconds }</div>
+        <div className="dobledots">días</div>
+        <div className="dobledots">horas</div>
+        <div className="dobledots">min</div>
         <div className="dobledots">seg</div>
       </div>
     </div>
