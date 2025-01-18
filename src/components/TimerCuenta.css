@@ -17,7 +17,7 @@
 }
 .timer-cuenta .container-display {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   column-gap: 12px;
   align-items: center;
   align-content: center;
